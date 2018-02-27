@@ -18,18 +18,19 @@ namespace CalcaliciousAndroid
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-            Dictionary<int, Button> numberButtons = new Dictionary<int, Button>();
-
-            numberButtons.Add(0, FindViewById<Button>(Resource.Id.button0));
-            numberButtons.Add(1, FindViewById<Button>(Resource.Id.button1));
-            numberButtons.Add(2, FindViewById<Button>(Resource.Id.button2));
-            numberButtons.Add(3, FindViewById<Button>(Resource.Id.button3));
-            numberButtons.Add(4, FindViewById<Button>(Resource.Id.button4));
-            numberButtons.Add(5, FindViewById<Button>(Resource.Id.button5));
-            numberButtons.Add(6, FindViewById<Button>(Resource.Id.button6));
-            numberButtons.Add(7, FindViewById<Button>(Resource.Id.button7));
-            numberButtons.Add(8, FindViewById<Button>(Resource.Id.button8));
-            numberButtons.Add(9, FindViewById<Button>(Resource.Id.button9));
+            Dictionary<int, Button> numberButtons = new Dictionary<int, Button>
+            {
+                { 0, FindViewById<Button>(Resource.Id.button0) },
+                { 1, FindViewById<Button>(Resource.Id.button1) },
+                { 2, FindViewById<Button>(Resource.Id.button2) },
+                { 3, FindViewById<Button>(Resource.Id.button3) },
+                { 4, FindViewById<Button>(Resource.Id.button4) },
+                { 5, FindViewById<Button>(Resource.Id.button5) },
+                { 6, FindViewById<Button>(Resource.Id.button6) },
+                { 7, FindViewById<Button>(Resource.Id.button7) },
+                { 8, FindViewById<Button>(Resource.Id.button8) },
+                { 9, FindViewById<Button>(Resource.Id.button9) }
+            };
 
             TextView expression = FindViewById<TextView>(Resource.Id.textExpression);
 
