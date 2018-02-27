@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout0">
+    <TextView
+        p1:text="0"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textExpression"
+        p1:layout_gravity="top"
+        p1:textSize="60dp"
+        p1:layout_weight="2"
+        p1:padding="10dp"
+        p1:textAlignment="textEnd" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout1"
+        p1:layout_gravity="center_horizontal"
+        p1:layout_weight="1">
+        <Button
+            p1:text="1"
+            p1:layout_height="match_parent"
+            p1:id="@+id/button1"
+            p1:layout_weight="1"
+            p1:layout_width="wrap_content" />
+        <Button
+            p1:text="2"
+            p1:layout_height="match_parent"
+            p1:id="@+id/button2"
+            p1:layout_weight="1"
+            p1:layout_width="wrap_content" />
+        <Button
+            p1:text="3"
+            p1:layout_height="match_parent"
+            p1:id="@+id/button3"
+            p1:layout_weight="1"
+            p1:layout_width="wrap_content" />
+        <Button
+            p1:text="+"
+            p1:layout_height="match_parent"
+            p1:id="@+id/buttonAdd"
+            p1:layout_weight="1"
+            p1:layout_width="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout2"
+        p1:layout_gravity="center"
+        p1:layout_weight="1">
+        <Button
+            p1:text="4"
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/button4"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="5"
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/button5"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="6"
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/button6"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="-"
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/buttonSubtract"
+            p1:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout3"
+        p1:layout_gravity="center"
+        p1:layout_weight="1">
+        <Button
+            p1:text="7"
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/button7"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="8"
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/button8"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="9"
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/button9"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="*"
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/buttonMultiply"
+            p1:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout4"
+        p1:layout_gravity="center"
+        p1:layout_weight="1">
+        <Button
+            p1:text="."
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/buttonDecimalPoint"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="0"
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/button0"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="="
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/buttonEquals"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="/"
+            p1:layout_height="match_parent"
+            p1:layout_width="wrap_content"
+            p1:id="@+id/buttonDivide"
+            p1:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
